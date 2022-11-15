@@ -1,0 +1,11 @@
+ondbclick() event listener: Details what should happen when a section (taxon) of the plot is double-clicked. Its subsections expand to take up the entire plot, while the section itself becomes root (layer 0). calculate_proportions() is called again to create another nested object for the new plot.
+
+The transition from the initial plot to this secondary one is accomplished via a few simultaneously running animations:
+* On first click, the radial ends of the section take on the shape of arrows. (this step can be initially ommitted)
+* On second click, the radial ends of the section move towards each other until they have completed the circle.
+* On second click:
+	** higher layer concentric circles shrink to disappear; 
+	** the concentric circle defining the section's outer edge shrinks to become root, inner edge shrinks to disappear; 
+	** lower layer defining concentric circles shrink as to expand in width to the proportions predefined in calculate_proportions().
+
+

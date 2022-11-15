@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dilara Sarach: Workflow</title>
+        <link rel="stylesheet" href="workflow.css"/>
+    </head>
+    <body>
+        <header></header>
+        <main>
+            <section id="diagram">
+                <img src="workflow.svg" alt="Workflow diagram" usemap="#workflow-map">
+                <map name="workflow-map">
+                    <area shape="rect" coords="0, 0, 20, 20" href="#div-empty" alt="index">
+                    <area shape="rect" coords="418,16,600,45" href="#div-taXaminer" alt="taXaminer">
+                    <area shape="rect" coords="500,64,578,94" href="#div-tsv" alt="tsv-files">
+                    <area shape="rect" coords="500,161,617,191" href="#div-nested-objects-1" alt="nested-objects-1">
+                    <area shape="rect" coords="500,259,617,289" href="#div-nested-objects-2" alt="nested-objects-2">
+                    <area shape="rect" coords="78,488,190,518" href="" alt="nested-objects-3">
+                    <area shape="rect" coords="418,597,600,626" href="#div-Krona" alt="Krona">
+                    <area shape="rect" coords="118,112,298,142" href="#div-NCBI" alt="NCBI Entry">
+                    <area shape="rect" coords="417,112,600,143" href="#div-determine-hierarchy" alt="determine_hierarchy() function">
+                    <area shape="rect" coords="417,209,600,240" href="#div-calculate-proportions" alt="calculate-proportions() function">
+                    <area shape="rect" coords="417,306,600,337" href="#div-draw-diagram" alt="draw-diagram() function">
+                    <area shape="rect" coords="417,403,600,434" href="#div-onmouseover-event-listener" alt="onmouseover() event listener">
+                    <area shape="rect" coords="290,500,472,531" href="#div-ondbclick-event-listener" alt="ondbclick() event listener">
+                    <area shape="rect" coords="555,500,737,531" href="#div-onmouseup-event-listener" alt="onmouseup() event listener">
+                    <area shape="rect" coords="290,42,374,74" href="#div-taxIDs" alt="taxIDs">
+                    <area shape="rect" coords="328,97,380,127" href="#div-HTML" alt="HTML">
+                </map>
+            </section>
+            <section id="detail">
+                <div id="div-empty"></div>
+                <div id="div-taXaminer"><iframe src="3D_plot.html" title="taXaminer"></iframe></div>
+                <div id="div-tsv"><iframe src="krona.txt" title=".tsv file" preload="none"></iframe></div>
+                <div id="div-taxIDs"><iframe src="taxIDs.txt" title="taxIDs"></iframe></div>
+                <div id="div-NCBI"><iframe src="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Undef&id=2759&lvl=3&lin=f&keep=1&srchmode=1&unlock" title="NCBI Entry"></iframe></div>
+                <div id="div-HTML"><iframe src="HTML.txt" title="HTML"></iframe></div>
+                <div id="div-nested-objects-1"><iframe src="nested-objects-1.txt" title="nested-objects-1"></iframe></div>
+                <div id="div-determine-hierarchy">
+                    <p><strong>determine_hierarchy()</strong>: Identifies taxa (passed as their taxIDs) by their name, keeps track of their absolute counts, and arranges them in order of their rank.</p>
+                    <img src="determine_hierarchy() in detail.svg" alt="determine_hierarchy() function">
+                </div>
+                <div id="div-nested-objects-2"><iframe src="nested-objects-2.txt" title="nested-objects-2"></iframe></div>
+                <div id="div-calculate-proportions"><iframe src="calculate_proportions().txt" title="calculate-proportions() function"></iframe></div>
+                <div id="div-draw-diagram"><iframe src="draw_diagram().txt" title="draw-diagram() function"></iframe></div>
+                <div id="div-onmouseover-event-listener"><iframe src="onmouseover()_event_listener.txt" title="onmouseover() event listener"></iframe></div>
+                <div id="div-ondbclick-event-listener"><iframe src="ondbclick() event listener.txt" title="ondbclick() event listener"></iframe></div>
+                <div id="div-onmouseup-event-listener"><iframe src="onmouseup() event listener.txt" title="onmouseup() event listener"></iframe></div>
+                <div id="div-Krona"><iframe src="taxonomy.krona.html" title="Krona"></iframe></div>
+                
+            </section>
+        </main>
+        <footer></footer>
+    </body>
+</html>

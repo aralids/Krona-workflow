@@ -1,0 +1,7 @@
+calculate_proportions(): Takes the taxa counts from determine_hierarchy() and calculates their relative proportions. But instead of percentages (e.g. Bacteria: 20%, Eukaryota: 70%), it thinks in degrees (Bacteria: 0-45 deg, Eukaryota: 45-305.75 deg).
+
+
+This is also the function where relative width of layers can be set: Will all layers have the same width? Will each successive layer be half the width its predecessor's?
+
+
+Note: Think of sections that span multiple layers!

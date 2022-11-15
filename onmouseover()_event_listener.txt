@@ -1,0 +1,3 @@
+onmouseover() event listener: Details what should happen when the user hovers their mouse over a section (taxon) of the plot by applying an onmouseover() event listener to its svg shape. 
+
+In the original Krona plots, this results in a faded color of the section and all its subsections, as well as its label highlighted. In my version, additionally its taxonomic rank could be shown.

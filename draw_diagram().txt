@@ -1,0 +1,1 @@
+draw_diagram(): Applies the calculations of previous function to the HTML canvas dimensions, coming up with the actual sizes and units for line lengths and circle radii, for example in px. Outputs an accurate but fully static circular plot.

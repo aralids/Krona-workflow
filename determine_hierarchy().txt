@@ -1,0 +1,2 @@
+determine_hierarchy(): Identifies taxa (passed as their taxIDs) by their name, keeps track of their absolute counts, and arranges them in order of their rank.
+

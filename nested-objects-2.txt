@@ -1,0 +1,16 @@
+let obj = { start: 0, end: 360,
+            Bacteria: { start: 0, end: 45,
+                        Gammaproteobacteria: { start: 0, end: 33.75,
+                                               AcetinobacterBaumanii: { start: 0, end: 16.875 },
+                                               EscherichiaColi: { start: 16.875, end: 28.125 },
+                                               noHits: { start: 28.125, end: 33.75 }
+                                             },
+                        BacillusThuringiensis: { start: 33.75, end: 45 }
+                      },
+            Eukaryota: { start: 45, end: 309.375,
+                         Eumetazoa: { start: 45, end: 309.375, 
+                                      Bilateria: { start: 45, end: 309.375 }
+                                    } 
+                       },
+            noHits: { start: 309.375, end: 360 }
+          }

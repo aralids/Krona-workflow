@@ -1,0 +1,18 @@
+let obj = { count: 64,
+            Bacteria: { count: 8,
+                        Gammaproteobacteria: { count: 6,
+                                               AcetinobacterBaumanii: { count: 3 },
+                                               EscherichiaColi: { count: 2 }
+                                             },
+                        BacillusThuringiensis: { count: 2 }
+                      },
+            Eukaryota: { count: 47,
+                         Eumetazoa: { count: 47, 
+                                      Bilateria: { count: 47 }
+                                    } 
+                       },
+          }
+
+obj.Bacteria.count
+obj.Bacteria.Gammaproteobacteria.AcetinobacterBaumanii.count
+obj.Bacteria.Gammaproteobacteria
